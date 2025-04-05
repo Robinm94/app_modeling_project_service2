@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Fee Result</title>
+</head>
+<body>
+<h1>Fee Calculated</h1>
+<p><strong>Fee Type:</strong> <span th:text="${fee.feeType}"></span></p>
+<p><strong>Fee Amount:</strong> <span th:text="${fee.feeAmount}"></span></p>
+<p><strong>Sales Tax:</strong> <span th:text="${fee.salesTax}"></span></p>
+<p><strong>Date:</strong> <span th:text="${fee.feeDate}"></span></p>
+<p><strong>Time:</strong> <span th:text="${fee.feeTime}"></span></p>
+
+<a href="/fees/form">Back</a>
+</body>
+</html>
